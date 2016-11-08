@@ -6,7 +6,7 @@ class MyException extends Exception{
 
 	public MyException(){
 		super("사용자 정의 예외입니다.");
-		System.out.println("범위를 초과하였습니다.");
+		System.out.println("입력 범위를 초과하였습니다.");
 	}
 }
 
